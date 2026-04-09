@@ -1,0 +1,9 @@
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\exception\GlobalExceptionHandler.java
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\InventoryApiApplication.java
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\service\InventoryService.java
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\model\InventoryStatus.java
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\model\Inventory.java
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\controller\InventoryController.java
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\model\ProductEvent.java
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\service\KafkaConsumerService.java
+O:\JavaProjects\inventory-api-java\src\main\java\com\batistell\inventoryapi\repository\InventoryRepository.java
