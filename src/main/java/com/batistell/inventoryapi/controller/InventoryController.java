@@ -88,4 +88,18 @@ public class InventoryController {
         });
     }
 
+    @GetMapping("/analytics/stock-by-status")
+    public ResponseEntity<List<Object[]>> getStockByStatus() {
+        return ResponseEntity.ok(inventoryService.getStockAggregation());
+    }
+
+    @GetMapping("/analytics/low-stock")
+    public ResponseEntity<List<Inventory>> getLowStockItems(@RequestParam(defaultValue = "10") int threshold) {
+        return ResponseEntity.ok(inventoryService.getLowStockItems(threshold));
+    }
+
+    @GetMapping("/{productId}/details")
+    public ResponseEntity<Map<String, Object>> getInventoryWithDetails(@PathVariable String productId) {
+        return ResponseEntity.ok(inventoryService.getInventoryWithProductDetails(productId));
+    }
 }
